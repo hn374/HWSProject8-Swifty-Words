@@ -33,6 +33,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+
         
         for subview in view.subviews where subview.tag == 1001 {
             let btn = subview as! UIButton
@@ -122,6 +123,8 @@ class ViewController: UIViewController {
             }
         }
     }
+    
+    
     
     func levelUp(action: UIAlertAction) {
         level += 1
